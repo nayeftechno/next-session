@@ -1,3 +1,4 @@
+import { memo } from "react";
 import Link from "next/link";
 
 function Navbar() {
@@ -26,4 +27,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default memo(Navbar);
